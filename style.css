@@ -1,0 +1,20 @@
+html, body {
+    height: auto;
+    background-color: #141414;
+  }
+  
+  .container{
+    height: auto;
+  }
+
+  img{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+  }
+
+  #logo{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+  }
