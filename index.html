@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Yellowtail&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="style.css">
@@ -16,22 +18,56 @@
 
     <div class="container">
 
-        <div id="navigator">
+        <div class="row" id="navigation">
 
-            <div class="row" id="logo">
+            <div class="col" id="logo">
                 <a href="https://www.warrentobias.com/">
-                    <img src="Assets/Carlogo_v2.png" alt="CarloLogo">
+                    <img src="Assets/Carlogo_v2.png" height="90px" width="90px" alt="CarloLogo">
                 </a>
             </div>
-          
+
+            <div class="col">
+                <a href="index.html">About</a>
+            </div>
+
+            <div class="col dropdown">
+                <button id="drpBtn">Assignments
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="dropdownContent">
+
+                    <div class="card" id="projectOne">
+                        <a href="projectone.html">Project One</a>
+                    </div>
+                    <div class="card" id="weatherDashboard">Weather Dashboard</div>
+                    <div class="card" id="workdayScheduler">Workday Scheduler</div>
+    
+                 </div>
+            </div>
+
+            <div class="col">
+                <a href="https://www.linkedin.com/in/carlocardona/">LinkedIn</a>
+            </div>
+            
+            <div class="col">
+                <a href="https://github.com/carlocardona">Github</a>
+            </div>
 
         </div>
 
-        <div class="col" id="main">
+        <div class="row" id="main">
+
+            <div class="div" id="message">
+                <h2>
+                    <p>
+                        Hi, my name is Carlo. <br>
+                        I am an aspiring Full Stack Developer. <br>
+                        Welcome to my journey!
+                    </p>
+                </h2>
+            </div>
 
         </div>
-
-
 
     </div>
 
