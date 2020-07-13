@@ -68,5 +68,11 @@ a:hover{
   justify-content: right;
   text-align: right;
   color: #cccccc;
+}
 
+#contact, #message{
+  font-size: 25px;
+  background: -webkit-linear-gradient(#7f50ff,#50ff7f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
