@@ -60,17 +60,24 @@ a:hover{
 }
 
 #main{
-  margin-top: 200px;
+  margin-top: 100px;
+  flex-direction: column;
   justify-content: center;
+  margin-left: 250px;
+  color: aliceblue;
 }
 
+#description{
+  width: 613px;
+}
+/* 
 #message{
+  padding-top: 200px;
   justify-content: right;
   text-align: right;
-  color: #cccccc;
-}
+} */
 
-#contact, #message{
+#contact, h3, #message{
   font-size: 25px;
   background: -webkit-linear-gradient(#7f50ff,#50ff7f);
   -webkit-background-clip: text;
